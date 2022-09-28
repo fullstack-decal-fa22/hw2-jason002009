@@ -15,6 +15,17 @@ h2 {
   font-size: medium;
   font-weight: 200;
 }
+
+.label {
+  color: purple;
+  font-size: smaller
+  
+}
+
+.label:hover{
+  color:pink;
+  font-size: larger;
+}
 /* END SETUP */
 
 /* Classes that you might find useful */
@@ -32,6 +43,7 @@ h2 {
 }
 
 .threevert {
+  height: 33.3%;
 }
 
 .threehoriz {
@@ -58,7 +70,19 @@ h2 {
 /* Colors */
 
 /* QUESTION 1 */
+.red{
+  background-color: red;
+}
 
+#white{
+  background-color: white;
+}
+
+.light-blue{
+  background-color:lightblue;
+  /* height: 100px;
+  width: 500px; */
+}
 .orange {
   background-color: orange;
 }
@@ -94,15 +118,18 @@ h2 {
 /* BEGIN QUESTION 2 */
 
 .thailand-red {
-  /* TODO */
+  background-color: #B5002D;
+  height: 16.67%;
 }
 
 .thailand-white {
-  /* TODO */
+  background-color: white;
+  height: 16.67%;
 }
 
 .thailand-blue {
-  /* TODO */
+  background-color: #2E2A4C;
+  height: 33.3%;
 }
 
 /* END QUESTION 2 */
@@ -129,12 +156,20 @@ h2 {
 }
 
 .mexico-img {
-  /* TODO */
+  align-self: center; 
+  max-width: 25%;
+  padding: 4.5%;
+}
+
+.eagle{
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .mexico-red {
   background-color: #ce1126;
 }
+
 
 /* QUESTION 6 */
 .margin-container {
@@ -143,23 +178,26 @@ h2 {
   border-style: solid;
   margin-bottom: 5rem;
   display: flex;
-  justify-content: center;
+  justify-content:center;
 }
 
 /* For margin practice */
-.flag1 {
+.flag1{
   background-color: red;
   /* TODO */
+  margin-right:10px;
 }
 
-.flag2 {
+.flag2{
   background-color: blue;
   /* TODO */
+  margin-left:10px;
 }
+
 /* For padding practice */
 .padding-container {
   box-sizing: border-box;
   background-color: lightblue;
   background-clip: content-box, padding-box;
-  /* TODO */
+  padding: 60px;
 }
